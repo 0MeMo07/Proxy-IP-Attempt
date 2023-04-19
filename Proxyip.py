@@ -3,6 +3,14 @@ from bs4 import BeautifulSoup
 from random import choice
 import re
 
+print(""" 
+░██████╗███╗░░░███╗░█████╗░██╗░░██╗███████╗
+██╔════╝████╗░████║██╔══██╗██║░██╔╝██╔════╝
+╚█████╗░██╔████╔██║███████║█████═╝░█████╗░░
+░╚═══██╗██║╚██╔╝██║██╔══██║██╔═██╗░██╔══╝░░
+██████╔╝██║░╚═╝░██║██║░░██║██║░╚██╗███████╗
+╚═════╝░╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝
+""")
 def Proxy():
     dosyakaydet = input("Do you want to save the txt file of the ip addresses you will dig y/n:")
     deger = int(input("How many IP addresses do you want to dig:"))
